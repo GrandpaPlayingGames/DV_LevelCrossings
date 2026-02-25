@@ -69,25 +69,28 @@ installation instructions there.
 
 ### From GitHub (Developers)
 
-If you prefer to build DV_LevelCrossings from source:
+This repository contains **source code only**. The compiled DLL is **not included**.
 
-1.  Clone this repository
-2.  Open `DV_LevelCrossings.sln` in Visual Studio
-3.  Build in **Release**
-4.  Copy the output DLL and required files into:
+To build DV_LevelCrossings from source:
 
-```{=html}
-<!-- -->
-```
-    Derail Valley/Mods/DV_LevelCrossings/
+1. Clone this repository  
+2. Open `DV_LevelCrossings.sln` in Visual Studio  
+3. Build in **Release** configuration  
+
+The compiled DLL will be generated under:
+
+DV_LevelCrossings/bin/Release/
+
+Copy the following files into:
+Derail Valley/Mods/DV_LevelCrossings/
 
 Required files:
 
--   DV_LevelCrossings.dll
--   info.json
--   Assets/ (if present)
+- `DV_LevelCrossings.dll` (built from Release)  
+- `info.json`  
+- `Assets/` (if present)  
 
-Launch the game and enable DV_LevelCrossings in Unity Mod Manager.
+Launch Derail Valley and enable DV_LevelCrossings in Unity Mod Manager.
 
 ------------------------------------------------------------------------
 
@@ -146,7 +149,7 @@ GitHub repository:\
 https://github.com/GrandpaPlayingGames/DV_LevelCrossings
 
 Nexus Mods:\
-(Add link once published)
+https://www.nexusmods.com/derailvalley/mods/1439
 
 YouTube:\
 https://www.youtube.com/@GrandpaPlayingGames

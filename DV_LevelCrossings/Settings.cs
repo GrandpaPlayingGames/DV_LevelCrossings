@@ -14,7 +14,7 @@ namespace DV_LevelCrossings
         public bool enabled = true;
 
 #if DVLC_DEBUG
-        public bool debugLogging = true;
+        public bool debugLogging = false;
 #endif
         public bool barriersAlwaysUp = false;
 
@@ -45,20 +45,6 @@ namespace DV_LevelCrossings
             };
 
             GUILayout.Space(6);
-
-            // =========================================================
-            // GENERAL
-            // =========================================================
-
-            BeginGroup("General", titleStyle);
-
-            enabled = GUILayout.Toggle(enabled, "Enabled");
-
-#if DVLC_DEBUG
-            debugLogging = GUILayout.Toggle(debugLogging, "Debug Logging");
-#endif
-
-            EndGroup();
 
             // =========================================================
             // CROSSING BEHAVIOUR

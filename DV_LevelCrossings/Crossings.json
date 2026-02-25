@@ -1,0 +1,1269 @@
+{
+  "version": 1,
+  "crossings": [
+    {
+      "id": "a6600c1f-f6ea-4c72-8a93-a15dbd5b8317",
+      "barrierPaths": [
+        "Far__x12_z2_LFS/Far_General/RailwayCrossings/RailwayCrossingBarrierShort",
+        "Far__x12_z2_LFS/Far_General/RailwayCrossings/RailwayCrossingBarrierLong"
+      ],
+      "barriers": [
+        {
+          "path": "Far__x12_z2_LFS/Far_General/RailwayCrossings/RailwayCrossingBarrierShort",
+          "posX": 13125.3213,
+          "posY": 113.068726,
+          "posZ": 3639.48438
+        },
+        {
+          "path": "Far__x12_z2_LFS/Far_General/RailwayCrossings/RailwayCrossingBarrierLong",
+          "posX": 13136.7148,
+          "posY": 113.068726,
+          "posZ": 3672.555
+        }
+      ],
+      "triggers": [
+        {
+          "group": "A",
+          "posX": 13079.6406,
+          "posY": 113.598785,
+          "posZ": 3666.19458,
+          "rotY": 0.0
+        },
+        {
+          "group": "B",
+          "posX": 13151.4971,
+          "posY": 113.598785,
+          "posZ": 3631.262,
+          "rotY": 300.0
+        },
+        {
+          "group": "B",
+          "posX": 13181.1748,
+          "posY": 113.598785,
+          "posZ": 3665.192,
+          "rotY": 0.0
+        }
+      ]
+    },
+    {
+      "id": "3853c31f-ea28-4124-addc-cc88830420d8",
+      "barrierPaths": [
+        "Far__x12_z2_LFS/Far_General/RailwayCrossings/RailwayCrossingBarrierShort (7)",
+        "Far__x12_z2_LFS/Far_General/RailwayCrossings/RailwayCrossingBarrierShort"
+      ],
+      "barriers": [
+        {
+          "path": "Far__x12_z2_LFS/Far_General/RailwayCrossings/RailwayCrossingBarrierShort (7)",
+          "posX": 12881.0371,
+          "posY": 113.081993,
+          "posZ": 3658.35864
+        },
+        {
+          "path": "Far__x12_z2_LFS/Far_General/RailwayCrossings/RailwayCrossingBarrierShort",
+          "posX": 12877.7109,
+          "posY": 113.081993,
+          "posZ": 3674.588
+        }
+      ],
+      "triggers": [
+        {
+          "group": "A",
+          "posX": 12824.0293,
+          "posY": 113.598785,
+          "posZ": 3667.558,
+          "rotY": 0.0
+        },
+        {
+          "group": "B",
+          "posX": 12919.6172,
+          "posY": 113.787125,
+          "posZ": 3667.40674,
+          "rotY": 0.0
+        }
+      ]
+    },
+    {
+      "id": "8a2c9ca8-c2f4-454e-8911-01ff0f9b1e0e",
+      "barrierPaths": [
+        "Far__x12_z2_LFS/Far_General/RailwayCrossings/RailwayCrossingBarrierLong (1)",
+        "Far__x12_z2_LFS/Far_General/RailwayCrossings/RailwayCrossingBarrierLong (2)"
+      ],
+      "barriers": [
+        {
+          "path": "Far__x12_z2_LFS/Far_General/RailwayCrossings/RailwayCrossingBarrierLong (1)",
+          "posX": 13163.0205,
+          "posY": 113.068726,
+          "posZ": 3610.82349
+        },
+        {
+          "path": "Far__x12_z2_LFS/Far_General/RailwayCrossings/RailwayCrossingBarrierLong (2)",
+          "posX": 13211.5293,
+          "posY": 113.068726,
+          "posZ": 3619.075
+        }
+      ],
+      "triggers": [
+        {
+          "group": "A",
+          "posX": 13146.9092,
+          "posY": 113.598785,
+          "posZ": 3633.824,
+          "rotY": 300.0
+        },
+        {
+          "group": "B",
+          "posX": 13229.1357,
+          "posY": 113.598785,
+          "posZ": 3593.77734,
+          "rotY": 300.0
+        }
+      ]
+    },
+    {
+      "id": "86c8df79-974d-4ea2-ad93-ca353b2bb8c1",
+      "barrierPaths": [
+        "Far__x12_z2_LFS/Far_General/RailwayCrossings/RailwayCrossingBarrierLong (4)",
+        "Far__x12_z2_LFS/Far_General/RailwayCrossings/RailwayCrossingBarrierLong (3)"
+      ],
+      "barriers": [
+        {
+          "path": "Far__x12_z2_LFS/Far_General/RailwayCrossings/RailwayCrossingBarrierLong (4)",
+          "posX": 13260.41,
+          "posY": 113.069336,
+          "posZ": 3567.73438
+        },
+        {
+          "path": "Far__x12_z2_LFS/Far_General/RailwayCrossings/RailwayCrossingBarrierLong (3)",
+          "posX": 13252.0781,
+          "posY": 113.069336,
+          "posZ": 3592.88867
+        }
+      ],
+      "triggers": [
+        {
+          "group": "A",
+          "posX": 13220.8359,
+          "posY": 113.598785,
+          "posZ": 3597.79956,
+          "rotY": 288.0
+        },
+        {
+          "group": "B",
+          "posX": 13289.8711,
+          "posY": 113.598785,
+          "posZ": 3576.9668,
+          "rotY": 8.5377377E-07
+        },
+        {
+          "group": "B",
+          "posX": 13283.31,
+          "posY": 113.598785,
+          "posZ": 3563.32837,
+          "rotY": 288.0
+        }
+      ]
+    },
+    {
+      "id": "378f2296-5fbf-4a6f-bbea-70f7d10c542e",
+      "barrierPaths": [
+        "Far__x12_z2_LFS/Far_General/RailwayCrossings/RailwayCrossingBarrierShort (4)",
+        "Far__x12_z2_LFS/Far_General/RailwayCrossings/RailwayCrossingBarrierShort (3)"
+      ],
+      "barriers": [
+        {
+          "path": "Far__x12_z2_LFS/Far_General/RailwayCrossings/RailwayCrossingBarrierShort (4)",
+          "posX": 13869.2207,
+          "posY": 113.069336,
+          "posZ": 3558.08
+        },
+        {
+          "path": "Far__x12_z2_LFS/Far_General/RailwayCrossings/RailwayCrossingBarrierShort (3)",
+          "posX": 13871.7461,
+          "posY": 113.069336,
+          "posZ": 3541.01465
+        }
+      ],
+      "triggers": [
+        {
+          "group": "A",
+          "posX": 13820.9639,
+          "posY": 113.598785,
+          "posZ": 3546.66064,
+          "rotY": 96.0
+        },
+        {
+          "group": "B",
+          "posX": 13907.6963,
+          "posY": 113.598785,
+          "posZ": 3559.56567,
+          "rotY": 252.0
+        }
+      ]
+    },
+    {
+      "id": "4ceb6daa-7bd2-490e-8c32-6b6e104c0f7d",
+      "barrierPaths": [
+        "Far__x12_z2_LFS/Far_General/RailwayCrossings/RailwayCrossingBarrierShort (2)",
+        "Far__x12_z2_LFS/Far_General/RailwayCrossings/RailwayCrossingBarrierShort (1)"
+      ],
+      "barriers": [
+        {
+          "path": "Far__x12_z2_LFS/Far_General/RailwayCrossings/RailwayCrossingBarrierShort (2)",
+          "posX": 13924.2256,
+          "posY": 113.069,
+          "posZ": 3621.61035
+        },
+        {
+          "path": "Far__x12_z2_LFS/Far_General/RailwayCrossings/RailwayCrossingBarrierShort (1)",
+          "posX": 13915.1719,
+          "posY": 113.069,
+          "posZ": 3634.45752
+        }
+      ],
+      "triggers": [
+        {
+          "group": "B",
+          "posX": 13959.4307,
+          "posY": 113.598785,
+          "posZ": 3636.205,
+          "rotY": 252.0
+        },
+        {
+          "group": "A",
+          "posX": 13873.27,
+          "posY": 113.598785,
+          "posZ": 3627.66479,
+          "rotY": 264.0
+        }
+      ]
+    },
+    {
+      "id": "8b9a0006-1eb3-41d1-9e14-45c9820fc6e6",
+      "barrierPaths": [
+        "Far__x12_z2_LFS/Far_General/RailwayCrossings/RailwayCrossingBarrierShort (5)",
+        "Far__x12_z2_LFS/Far_General/RailwayCrossings/RailwayCrossingBarrierShort (6)"
+      ],
+      "barriers": [
+        {
+          "path": "Far__x12_z2_LFS/Far_General/RailwayCrossings/RailwayCrossingBarrierShort (5)",
+          "posX": 13855.6836,
+          "posY": 113.069336,
+          "posZ": 3458.75537
+        },
+        {
+          "path": "Far__x12_z2_LFS/Far_General/RailwayCrossings/RailwayCrossingBarrierShort (6)",
+          "posX": 13846.7422,
+          "posY": 113.069336,
+          "posZ": 3471.27417
+        }
+      ],
+      "triggers": [
+        {
+          "group": "A",
+          "posX": 13810.8174,
+          "posY": 113.598785,
+          "posZ": 3462.19067,
+          "rotY": 264.0
+        },
+        {
+          "group": "B",
+          "posX": 13886.3564,
+          "posY": 113.598785,
+          "posZ": 3477.47656,
+          "rotY": 240.000031
+        }
+      ]
+    },
+    {
+      "id": "a0740134-c042-410a-b02a-237885a1f10b",
+      "barrierPaths": [
+        "Far__x9_z13_LFS/Far_RailwayCrossings/RailwayCrossingBarrierLong (1)",
+        "Far__x9_z13_LFS/Far_RailwayCrossings/RailwayCrossingBarrierLong"
+      ],
+      "barriers": [
+        {
+          "path": "Far__x9_z13_LFS/Far_RailwayCrossings/RailwayCrossingBarrierLong (1)",
+          "posX": 9565.253,
+          "posY": 119.219238,
+          "posZ": 13718.1318
+        },
+        {
+          "path": "Far__x9_z13_LFS/Far_RailwayCrossings/RailwayCrossingBarrierLong",
+          "posX": 9543.108,
+          "posY": 119.219238,
+          "posZ": 13715.84
+        }
+      ],
+      "triggers": [
+        {
+          "group": "A",
+          "posX": 9570.261,
+          "posY": 119.678413,
+          "posZ": 13767.4834,
+          "rotY": 19.2563381
+        },
+        {
+          "group": "B",
+          "posX": 9551.271,
+          "posY": 119.678413,
+          "posZ": 13677.3047,
+          "rotY": 195.455887
+        },
+        {
+          "group": "B",
+          "posX": 9532.855,
+          "posY": 119.678413,
+          "posZ": 13671.3643,
+          "rotY": 200.853928
+        },
+        {
+          "group": "B",
+          "posX": 9536.757,
+          "posY": 119.678413,
+          "posZ": 13669.99,
+          "rotY": 195.75354
+        }
+      ]
+    },
+    {
+      "id": "1daa9ba1-7759-45af-812c-d325f08d0dcd",
+      "barrierPaths": [
+        "Far__x9_z13_LFS/Far_RailwayCrossings/RailwayCrossingBarrierLong (2)",
+        "Far__x9_z13_LFS/Far_RailwayCrossings/RailwayCrossingBarrierLong (3)"
+      ],
+      "barriers": [
+        {
+          "path": "Far__x9_z13_LFS/Far_RailwayCrossings/RailwayCrossingBarrierLong (2)",
+          "posX": 9313.106,
+          "posY": 119.219238,
+          "posZ": 13161.4346
+        },
+        {
+          "path": "Far__x9_z13_LFS/Far_RailwayCrossings/RailwayCrossingBarrierLong (3)",
+          "posX": 9339.265,
+          "posY": 119.219238,
+          "posZ": 13162.1855
+        }
+      ],
+      "triggers": [
+        {
+          "group": "A",
+          "posX": 9303.314,
+          "posY": 119.67437,
+          "posZ": 13128.8145,
+          "rotY": 209.173309
+        },
+        {
+          "group": "A",
+          "posX": 9307.596,
+          "posY": 119.674232,
+          "posZ": 13125.7676,
+          "rotY": 220.473083
+        },
+        {
+          "group": "B",
+          "posX": 9370.922,
+          "posY": 119.678413,
+          "posZ": 13223.3037,
+          "rotY": 32.472126
+        },
+        {
+          "group": "B",
+          "posX": 9362.705,
+          "posY": 119.678413,
+          "posZ": 13227.9912,
+          "rotY": 21.7721634
+        },
+        {
+          "group": "B",
+          "posX": 9336.236,
+          "posY": 119.678413,
+          "posZ": 13224.7549,
+          "rotY": 15.4705067
+        },
+        {
+          "group": "B",
+          "posX": 9325.615,
+          "posY": 119.678413,
+          "posZ": 13224.0537,
+          "rotY": 357.069824
+        }
+      ]
+    },
+    {
+      "id": "ae97c79b-31da-4d04-aa46-9ac34cb39d1b",
+      "barrierPaths": [
+        "Far__x12_z10_LFS/Far_RailwayCrossings/RailwayCrossingBarrierLong (1)",
+        "Far__x12_z10_LFS/Far_RailwayCrossings/RailwayCrossingBarrierLong"
+      ],
+      "barriers": [
+        {
+          "path": "Far__x12_z10_LFS/Far_RailwayCrossings/RailwayCrossingBarrierLong (1)",
+          "posX": 12958.4326,
+          "posY": 140.21933,
+          "posZ": 11045.0586
+        },
+        {
+          "path": "Far__x12_z10_LFS/Far_RailwayCrossings/RailwayCrossingBarrierLong",
+          "posX": 12932.499,
+          "posY": 140.119446,
+          "posZ": 11071.0127
+        }
+      ],
+      "triggers": [
+        {
+          "group": "A",
+          "posX": 12995.0283,
+          "posY": 140.650818,
+          "posZ": 11065.6016,
+          "rotY": 67.22047
+        },
+        {
+          "group": "A",
+          "posX": 12988.5752,
+          "posY": 140.650818,
+          "posZ": 11073.26,
+          "rotY": 65.620575
+        },
+        {
+          "group": "A",
+          "posX": 12987.7607,
+          "posY": 140.650879,
+          "posZ": 11076.8721,
+          "rotY": 60.82058
+        },
+        {
+          "group": "A",
+          "posX": 12977.9648,
+          "posY": 140.650818,
+          "posZ": 11087.1484,
+          "rotY": 59.1203
+        },
+        {
+          "group": "B",
+          "posX": 12891.1074,
+          "posY": 140.650879,
+          "posZ": 11038.2041,
+          "rotY": 243.519684
+        },
+        {
+          "group": "B",
+          "posX": 12888.7266,
+          "posY": 140.650818,
+          "posZ": 11032.5166,
+          "rotY": 236.519379
+        },
+        {
+          "group": "B",
+          "posX": 12904.2441,
+          "posY": 140.651489,
+          "posZ": 11030.7461,
+          "rotY": 240.2182
+        },
+        {
+          "group": "B",
+          "posX": 12924.541,
+          "posY": 140.650818,
+          "posZ": 11030.01,
+          "rotY": 243.318024
+        }
+      ]
+    },
+    {
+      "id": "28376d45-5fb3-48cd-927f-2675efbb901f",
+      "barrierPaths": [
+        "Far__x12_z10_LFS/Far_RailwayCrossings/RailwayCrossingBarrierLong (2)",
+        "Far__x12_z10_LFS/Far_RailwayCrossings/RailwayCrossingBarrierLong (3)"
+      ],
+      "barriers": [
+        {
+          "path": "Far__x12_z10_LFS/Far_RailwayCrossings/RailwayCrossingBarrierLong (2)",
+          "posX": 13177.9316,
+          "posY": 140.120056,
+          "posZ": 11184.0322
+        },
+        {
+          "path": "Far__x12_z10_LFS/Far_RailwayCrossings/RailwayCrossingBarrierLong (3)",
+          "posX": 13191.9473,
+          "posY": 140.120056,
+          "posZ": 11178.8633
+        }
+      ],
+      "triggers": [
+        {
+          "group": "A",
+          "posX": 13141.28,
+          "posY": 140.651489,
+          "posZ": 11158.9375,
+          "rotY": 242.665009
+        },
+        {
+          "group": "A",
+          "posX": 13139.8457,
+          "posY": 140.651489,
+          "posZ": 11163.748,
+          "rotY": 252.563858
+        },
+        {
+          "group": "B",
+          "posX": 13229.9375,
+          "posY": 140.6515,
+          "posZ": 11196.8066,
+          "rotY": 79.26372
+        }
+      ]
+    },
+    {
+      "id": "3904afaa-f294-4a9a-8572-253ed3dca2d4",
+      "barrierPaths": [
+        "Far__x12_z10_LFS/Far_RailwayCrossings/RailwayCrossingBarrierLong (4)",
+        "Far__x12_z10_LFS/Far_RailwayCrossings/RailwayCrossingBarrierLong (5)"
+      ],
+      "barriers": [
+        {
+          "path": "Far__x12_z10_LFS/Far_RailwayCrossings/RailwayCrossingBarrierLong (4)",
+          "posX": 13252.21,
+          "posY": 140.119965,
+          "posZ": 11046.2813
+        },
+        {
+          "path": "Far__x12_z10_LFS/Far_RailwayCrossings/RailwayCrossingBarrierLong (5)",
+          "posX": 13267.791,
+          "posY": 140.119949,
+          "posZ": 11037.1309
+        }
+      ],
+      "triggers": [
+        {
+          "group": "A",
+          "posX": 13299.8623,
+          "posY": 140.6515,
+          "posZ": 11065.45,
+          "rotY": 43.91279
+        },
+        {
+          "group": "B",
+          "posX": 13201.3613,
+          "posY": 140.651489,
+          "posZ": 11018.0889,
+          "rotY": 252.312057
+        },
+        {
+          "group": "B",
+          "posX": 13196.7012,
+          "posY": 140.651489,
+          "posZ": 11031.5771,
+          "rotY": 280.311035
+        }
+      ]
+    },
+    {
+      "id": "fff66dc8-c573-4ccc-b7b6-14ac2c9f803d",
+      "barrierPaths": [
+        "Far__x2_z10_LFS/Far_Station_MachineFactory/RailwayCrossings/RailwayCrossingBarrierLong (3)",
+        "Far__x2_z10_LFS/Far_Station_MachineFactory/RailwayCrossings/RailwayCrossingBarrierLong (2)"
+      ],
+      "barriers": [
+        {
+          "path": "Far__x2_z10_LFS/Far_Station_MachineFactory/RailwayCrossings/RailwayCrossingBarrierLong (3)",
+          "posX": 2284.06543,
+          "posY": 159.519547,
+          "posZ": 11014.0293
+        },
+        {
+          "path": "Far__x2_z10_LFS/Far_Station_MachineFactory/RailwayCrossings/RailwayCrossingBarrierLong (2)",
+          "posX": 2317.29468,
+          "posY": 159.519547,
+          "posZ": 11023.0068
+        }
+      ],
+      "triggers": [
+        {
+          "group": "A",
+          "posX": 2298.68115,
+          "posY": 159.6894,
+          "posZ": 11065.3574,
+          "rotY": 7.55841827
+        },
+        {
+          "group": "A",
+          "posX": 2307.84717,
+          "posY": 159.6894,
+          "posZ": 11058.2861,
+          "rotY": 2.1586082
+        },
+        {
+          "group": "A",
+          "posX": 2310.89258,
+          "posY": 159.6894,
+          "posZ": 11060.4736,
+          "rotY": 355.65683
+        },
+        {
+          "group": "B",
+          "posX": 2311.7666,
+          "posY": 159.6894,
+          "posZ": 10970.5527,
+          "rotY": 181.956451
+        },
+        {
+          "group": "B",
+          "posX": 2315.224,
+          "posY": 159.6894,
+          "posZ": 10968.9883,
+          "rotY": 175.556458
+        },
+        {
+          "group": "B",
+          "posX": 2305.545,
+          "posY": 159.6894,
+          "posZ": 10968.6807,
+          "rotY": 180.155472
+        },
+        {
+          "group": "B",
+          "posX": 2301.615,
+          "posY": 159.6894,
+          "posZ": 10968.1152,
+          "rotY": 186.455338
+        },
+        {
+          "group": "B",
+          "posX": 2288.01343,
+          "posY": 159.6894,
+          "posZ": 10971.1055,
+          "rotY": 182.554108
+        }
+      ]
+    },
+    {
+      "id": "886703e4-ff0f-43b6-8936-6be998957612",
+      "barrierPaths": [
+        "Far__x2_z10_LFS/Far_Station_MachineFactory/RailwayCrossings/RailwayCrossingBarrierLong (1)",
+        "Far__x2_z10_LFS/Far_Station_MachineFactory/RailwayCrossings/RailwayCrossingBarrierLong"
+      ],
+      "barriers": [
+        {
+          "path": "Far__x2_z10_LFS/Far_Station_MachineFactory/RailwayCrossings/RailwayCrossingBarrierLong (1)",
+          "posX": 2312.143,
+          "posY": 159.319336,
+          "posZ": 10713.0078
+        },
+        {
+          "path": "Far__x2_z10_LFS/Far_Station_MachineFactory/RailwayCrossings/RailwayCrossingBarrierLong",
+          "posX": 2276.76318,
+          "posY": 159.319336,
+          "posZ": 10704.0322
+        }
+      ],
+      "triggers": [
+        {
+          "group": "A",
+          "posX": 2304.643,
+          "posY": 159.6894,
+          "posZ": 10734.708,
+          "rotY": 2.10347247
+        },
+        {
+          "group": "A",
+          "posX": 2298.26685,
+          "posY": 159.6894,
+          "posZ": 10736.8955,
+          "rotY": 1.00347877
+        },
+        {
+          "group": "A",
+          "posX": 2281.60327,
+          "posY": 159.6894,
+          "posZ": 10735.9824,
+          "rotY": 353.503418
+        },
+        {
+          "group": "B",
+          "posX": 2289.93335,
+          "posY": 159.6894,
+          "posZ": 10675.67,
+          "rotY": 170.703354
+        },
+        {
+          "group": "B",
+          "posX": 2297.21118,
+          "posY": 159.6894,
+          "posZ": 10678.7051,
+          "rotY": 178.603348
+        },
+        {
+          "group": "B",
+          "posX": 2302.86328,
+          "posY": 159.6894,
+          "posZ": 10677.8213,
+          "rotY": 181.103241
+        }
+      ]
+    },
+    {
+      "id": "3cd4f016-1de6-4b01-8481-d8a95a821a42",
+      "barrierPaths": [
+        "Far__x2_z10_LFS/Far_Station_MachineFactory/RailwayCrossings/RailwayCrossingBarrierShort",
+        "Far__x2_z10_LFS/Far_Station_MachineFactory/RailwayCrossings/RailwayCrossingBarrierShort (1)"
+      ],
+      "barriers": [
+        {
+          "path": "Far__x2_z10_LFS/Far_Station_MachineFactory/RailwayCrossings/RailwayCrossingBarrierShort",
+          "posX": 2302.706,
+          "posY": 159.319336,
+          "posZ": 10513.125
+        },
+        {
+          "path": "Far__x2_z10_LFS/Far_Station_MachineFactory/RailwayCrossings/RailwayCrossingBarrierShort (1)",
+          "posX": 2280.134,
+          "posY": 159.319336,
+          "posZ": 10503.8945
+        }
+      ],
+      "triggers": [
+        {
+          "group": "A",
+          "posX": 2298.6123,
+          "posY": 159.6894,
+          "posZ": 10550.2363,
+          "rotY": 3.55130076
+        },
+        {
+          "group": "A",
+          "posX": 2280.65332,
+          "posY": 159.6894,
+          "posZ": 10561.0117,
+          "rotY": 356.650055
+        },
+        {
+          "group": "A",
+          "posX": 2277.005,
+          "posY": 159.6894,
+          "posZ": 10559.3779,
+          "rotY": 349.249847
+        },
+        {
+          "group": "B",
+          "posX": 2290.98218,
+          "posY": 159.6894,
+          "posZ": 10478.4258,
+          "rotY": 172.149078
+        },
+        {
+          "group": "B",
+          "posX": 2297.291,
+          "posY": 159.6894,
+          "posZ": 10480.1621,
+          "rotY": 181.848755
+        }
+      ]
+    },
+    {
+      "id": "ba2f6fa3-f067-4d54-b89b-e61b0c0735b1",
+      "barrierPaths": [
+        "Far__x2_z10_LFS/Far_Station_MachineFactory/RailwayCrossings/RailwayCrossingBarrierShort",
+        "Far__x2_z10_LFS/Far_Station_MachineFactory/RailwayCrossings/RailwayCrossingBarrierShort (3)"
+      ],
+      "barriers": [
+        {
+          "path": "Far__x2_z10_LFS/Far_Station_MachineFactory/RailwayCrossings/RailwayCrossingBarrierShort",
+          "posX": 2401.85229,
+          "posY": 159.219009,
+          "posZ": 10725.748
+        },
+        {
+          "path": "Far__x2_z10_LFS/Far_Station_MachineFactory/RailwayCrossings/RailwayCrossingBarrierShort (3)",
+          "posX": 2454.10181,
+          "posY": 159.219009,
+          "posZ": 10733.7627
+        }
+      ],
+      "triggers": [
+        {
+          "group": "A",
+          "posX": 2440.85034,
+          "posY": 159.6894,
+          "posZ": 10677.3457,
+          "rotY": 181.71994
+        },
+        {
+          "group": "A",
+          "posX": 2436.86646,
+          "posY": 159.6894,
+          "posZ": 10674.6006,
+          "rotY": 181.619034
+        },
+        {
+          "group": "A",
+          "posX": 2432.17676,
+          "posY": 159.6894,
+          "posZ": 10672.84,
+          "rotY": 179.618057
+        },
+        {
+          "group": "A",
+          "posX": 2429.14941,
+          "posY": 159.6894,
+          "posZ": 10672.7471,
+          "rotY": 174.6174
+        },
+        {
+          "group": "A",
+          "posX": 2411.01563,
+          "posY": 159.6894,
+          "posZ": 10672.3535,
+          "rotY": 183.816238
+        },
+        {
+          "group": "B",
+          "posX": 2409.39868,
+          "posY": 159.862823,
+          "posZ": 10758.9229,
+          "rotY": 2.615297
+        },
+        {
+          "group": "B",
+          "posX": 2414.27979,
+          "posY": 159.862854,
+          "posZ": 10759.0859,
+          "rotY": 357.9152
+        },
+        {
+          "group": "B",
+          "posX": 2418.70752,
+          "posY": 159.863052,
+          "posZ": 10759.09,
+          "rotY": 1.21521425
+        },
+        {
+          "group": "B",
+          "posX": 2422.34326,
+          "posY": 159.8636,
+          "posZ": 10759.1445,
+          "rotY": 1.31521511
+        },
+        {
+          "group": "B",
+          "posX": 2430.34888,
+          "posY": 159.774246,
+          "posZ": 10759.03,
+          "rotY": 1.31521511
+        },
+        {
+          "group": "B",
+          "posX": 2434.85034,
+          "posY": 159.8291,
+          "posZ": 10758.4121,
+          "rotY": 5.715246
+        },
+        {
+          "group": "B",
+          "posX": 2443.84326,
+          "posY": 159.769348,
+          "posZ": 10758.7529,
+          "rotY": 358.815033
+        },
+        {
+          "group": "B",
+          "posX": 2443.79248,
+          "posY": 159.769348,
+          "posZ": 10758.752,
+          "rotY": 358.815033
+        },
+        {
+          "group": "B",
+          "posX": 2448.0376,
+          "posY": 159.863068,
+          "posZ": 10758.7266,
+          "rotY": 2.61480069
+        },
+        {
+          "group": "B",
+          "posX": 2452.082,
+          "posY": 159.85968,
+          "posZ": 10758.0645,
+          "rotY": 4.81493664
+        }
+      ]
+    },
+    {
+      "id": "83aebaea-36f0-417e-8d6a-ee6453140a60",
+      "barrierPaths": [
+        "Far__x2_z10_LFS/Far_Station_MachineFactory/RailwayCrossings/RailwayCrossingBarrierShort (2)",
+        "Far__x2_z10_LFS/Far_Station_MachineFactory/RailwayCrossings/RailwayCrossingBarrierLong"
+      ],
+      "barriers": [
+        {
+          "path": "Far__x2_z10_LFS/Far_Station_MachineFactory/RailwayCrossings/RailwayCrossingBarrierShort (2)",
+          "posX": 2437.76074,
+          "posY": 159.319336,
+          "posZ": 10599.1338
+        },
+        {
+          "path": "Far__x2_z10_LFS/Far_Station_MachineFactory/RailwayCrossings/RailwayCrossingBarrierLong",
+          "posX": 2412.24536,
+          "posY": 159.319336,
+          "posZ": 10587.7256
+        }
+      ],
+      "triggers": [
+        {
+          "group": "B",
+          "posX": 2426.97437,
+          "posY": 159.6894,
+          "posZ": 10558.123,
+          "rotY": 191.164032
+        },
+        {
+          "group": "A",
+          "posX": 2432.13379,
+          "posY": 159.6894,
+          "posZ": 10643.4072,
+          "rotY": 353.563416
+        },
+        {
+          "group": "A",
+          "posX": 2435.895,
+          "posY": 159.6894,
+          "posZ": 10643.1543,
+          "rotY": 1.96367109
+        },
+        {
+          "group": "A",
+          "posX": 2411.001,
+          "posY": 159.6894,
+          "posZ": 10645.2021,
+          "rotY": 353.7606
+        },
+        {
+          "group": "B",
+          "posX": 2417.54932,
+          "posY": 159.6894,
+          "posZ": 10555.748,
+          "rotY": 182.46051
+        }
+      ]
+    },
+    {
+      "id": "9ec77f0c-5f75-4ba6-9a68-bc00ecaf574e",
+      "barrierPaths": [
+        "Far__x1_z5_LFS/Far_RailwayCrossings/RailwayCrossingBarrierShort (1)",
+        "Far__x1_z5_LFS/Far_RailwayCrossings/RailwayCrossingBarrierShort"
+      ],
+      "barriers": [
+        {
+          "path": "Far__x1_z5_LFS/Far_RailwayCrossings/RailwayCrossingBarrierShort (1)",
+          "posX": 2053.65942,
+          "posY": 122.219238,
+          "posZ": 5924.77539
+        },
+        {
+          "path": "Far__x1_z5_LFS/Far_RailwayCrossings/RailwayCrossingBarrierShort",
+          "posX": 2065.27271,
+          "posY": 122.219238,
+          "posZ": 5934.442
+        }
+      ],
+      "triggers": [
+        {
+          "group": "A",
+          "posX": 2076.87646,
+          "posY": 123.17543,
+          "posZ": 5988.05762,
+          "rotY": 15.8169889
+        },
+        {
+          "group": "B",
+          "posX": 2050.521,
+          "posY": 122.776245,
+          "posZ": 5876.936,
+          "rotY": 189.81633
+        },
+        {
+          "group": "B",
+          "posX": 2055.571,
+          "posY": 122.776245,
+          "posZ": 5877.824,
+          "rotY": 176.416183
+        }
+      ]
+    },
+    {
+      "id": "b7dfe11e-1d81-42b2-b0f2-d351840d5175",
+      "barrierPaths": [
+        "Far__x1_z5_LFS/Far_RailwayCrossings/RailwayCrossingBarrierShort (2)",
+        "Far__x1_z5_LFS/Far_RailwayCrossings/RailwayCrossingBarrierShort (3)"
+      ],
+      "barriers": [
+        {
+          "path": "Far__x1_z5_LFS/Far_RailwayCrossings/RailwayCrossingBarrierShort (2)",
+          "posX": 2192.69336,
+          "posY": 122.219238,
+          "posZ": 5772.486
+        },
+        {
+          "path": "Far__x1_z5_LFS/Far_RailwayCrossings/RailwayCrossingBarrierShort (3)",
+          "posX": 2202.23877,
+          "posY": 122.219238,
+          "posZ": 5763.80566
+        }
+      ],
+      "triggers": [
+        {
+          "group": "A",
+          "posX": 2231.663,
+          "posY": 122.820259,
+          "posZ": 5765.329,
+          "rotY": 95.8147659
+        },
+        {
+          "group": "B",
+          "posX": 2143.6394,
+          "posY": 122.776245,
+          "posZ": 5773.82568,
+          "rotY": 275.714081
+        },
+        {
+          "group": "B",
+          "posX": 2140.26733,
+          "posY": 122.776245,
+          "posZ": 5766.292,
+          "rotY": 248.7138
+        }
+      ]
+    },
+    {
+      "id": "d4b817cd-135e-4449-b534-0fd60c84c2a3",
+      "barrierPaths": [
+        "Far__x1_z5_LFS/Far_RailwayCrossings/RailwayCrossingBarrierLong",
+        "Far__x1_z5_LFS/Far_RailwayCrossings/RailwayCrossingBarrierLong (1)"
+      ],
+      "barriers": [
+        {
+          "path": "Far__x1_z5_LFS/Far_RailwayCrossings/RailwayCrossingBarrierLong",
+          "posX": 2001.20789,
+          "posY": 122.219238,
+          "posZ": 5652.123
+        },
+        {
+          "path": "Far__x1_z5_LFS/Far_RailwayCrossings/RailwayCrossingBarrierLong (1)",
+          "posX": 1978.69324,
+          "posY": 122.219238,
+          "posZ": 5659.94727
+        }
+      ],
+      "triggers": [
+        {
+          "group": "A",
+          "posX": 2020.298,
+          "posY": 122.776245,
+          "posZ": 5685.915,
+          "rotY": 41.3621559
+        },
+        {
+          "group": "A",
+          "posX": 2011.507,
+          "posY": 122.776245,
+          "posZ": 5695.349,
+          "rotY": 41.56087
+        },
+        {
+          "group": "A",
+          "posX": 2007.869,
+          "posY": 122.776245,
+          "posZ": 5698.36865,
+          "rotY": 22.1608753
+        },
+        {
+          "group": "B",
+          "posX": 1961.71375,
+          "posY": 122.776245,
+          "posZ": 5621.119,
+          "rotY": 220.1599
+        }
+      ]
+    },
+    {
+      "id": "d497da62-882b-4c98-aa1d-615e2be54871",
+      "barrierPaths": [
+        "Far__x1_z5_LFS/Far_RailwayCrossings/RailwayCrossingBarrierLong (3)",
+        "Far__x1_z5_LFS/Far_RailwayCrossings/RailwayCrossingBarrierLong (2)"
+      ],
+      "barriers": [
+        {
+          "path": "Far__x1_z5_LFS/Far_RailwayCrossings/RailwayCrossingBarrierLong (3)",
+          "posX": 1905.36523,
+          "posY": 122.219238,
+          "posZ": 5729.06738
+        },
+        {
+          "path": "Far__x1_z5_LFS/Far_RailwayCrossings/RailwayCrossingBarrierLong (2)",
+          "posX": 1938.98438,
+          "posY": 122.219238,
+          "posZ": 5710.77637
+        }
+      ],
+      "triggers": [
+        {
+          "group": "A",
+          "posX": 1950.04,
+          "posY": 122.776245,
+          "posZ": 5763.40527,
+          "rotY": 46.50821
+        },
+        {
+          "group": "B",
+          "posX": 1873.59753,
+          "posY": 122.776245,
+          "posZ": 5688.12646,
+          "rotY": 224.3078
+        },
+        {
+          "group": "B",
+          "posX": 1900.837,
+          "posY": 122.776245,
+          "posZ": 5684.28,
+          "rotY": 209.207184
+        },
+        {
+          "group": "B",
+          "posX": 1920.47314,
+          "posY": 122.899666,
+          "posZ": 5698.425,
+          "rotY": 225.00621
+        },
+        {
+          "group": "A",
+          "posX": 1938.43237,
+          "posY": 122.76088,
+          "posZ": 5717.59375,
+          "rotY": 39.20568
+        }
+      ]
+    },
+    {
+      "id": "24686e4c-6640-4938-a41f-50399ce47ace",
+      "barrierPaths": [
+        "Far__x1_z5_LFS/Far_RailwayCrossings/RailwayCrossingBarrierShort (4)",
+        "Far__x1_z5_LFS/Far_RailwayCrossings/RailwayCrossingBarrierShort (5)"
+      ],
+      "barriers": [
+        {
+          "path": "Far__x1_z5_LFS/Far_RailwayCrossings/RailwayCrossingBarrierShort (4)",
+          "posX": 1972.55835,
+          "posY": 122.219238,
+          "posZ": 5797.23047
+        },
+        {
+          "path": "Far__x1_z5_LFS/Far_RailwayCrossings/RailwayCrossingBarrierShort (5)",
+          "posX": 1982.74438,
+          "posY": 122.219238,
+          "posZ": 5780.73047
+        }
+      ],
+      "triggers": [
+        {
+          "group": "A",
+          "posX": 2026.63708,
+          "posY": 122.776245,
+          "posZ": 5795.6665,
+          "rotY": 98.55426
+        },
+        {
+          "group": "A",
+          "posX": 2011.19739,
+          "posY": 122.776245,
+          "posZ": 5815.621,
+          "rotY": 51.6533127
+        },
+        {
+          "group": "B",
+          "posX": 1941.28015,
+          "posY": 122.776245,
+          "posZ": 5753.961,
+          "rotY": 202.551956
+        }
+      ]
+    },
+    {
+      "id": "2f3398b6-5b33-45c7-9d35-ef9877ee3793",
+      "barrierPaths": [
+        "Far__x9_z1_LFS/Far_Objects/RailwayCrossingBarrierLong (1)",
+        "Far__x9_z1_LFS/Far_Objects/RailwayCrossingBarrierLong"
+      ],
+      "barriers": [
+        {
+          "path": "Far__x9_z1_LFS/Far_Objects/RailwayCrossingBarrierLong (1)",
+          "posX": 10097.48,
+          "posY": 134.599991,
+          "posZ": 1337.37012
+        },
+        {
+          "path": "Far__x9_z1_LFS/Far_Objects/RailwayCrossingBarrierLong",
+          "posX": 10088.48,
+          "posY": 134.599991,
+          "posZ": 1380.37012
+        }
+      ],
+      "triggers": [
+        {
+          "group": "A",
+          "posX": 10142.6777,
+          "posY": 135.289871,
+          "posZ": 1347.68652,
+          "rotY": 90.45172
+        },
+        {
+          "group": "A",
+          "posX": 10143.0625,
+          "posY": 135.282,
+          "posZ": 1351.56055,
+          "rotY": 84.6517639
+        },
+        {
+          "group": "A",
+          "posX": 10143.81,
+          "posY": 135.297989,
+          "posZ": 1357.95569,
+          "rotY": 90.25194
+        },
+        {
+          "group": "A",
+          "posX": 10142.1748,
+          "posY": 135.31958,
+          "posZ": 1370.56946,
+          "rotY": 91.45207
+        },
+        {
+          "group": "A",
+          "posX": 10142.4512,
+          "posY": 135.295471,
+          "posZ": 1374.00647,
+          "rotY": 84.15212
+        },
+        {
+          "group": "B",
+          "posX": 10052.3555,
+          "posY": 135.287033,
+          "posZ": 1370.69849,
+          "rotY": 270.100769
+        },
+        {
+          "group": "B",
+          "posX": 10057.4727,
+          "posY": 135.2954,
+          "posZ": 1358.27258,
+          "rotY": 269.600525
+        },
+        {
+          "group": "B",
+          "posX": 10055.7021,
+          "posY": 135.255417,
+          "posZ": 1347.267,
+          "rotY": 268.700165
+        }
+      ]
+    }
+  ]
+}

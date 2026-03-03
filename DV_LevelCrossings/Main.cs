@@ -81,6 +81,11 @@ namespace DV_LevelCrossings
                 Vector3 delta = move - _lastMove;
                 Log($"[Crossings] WOS detected. delta={delta}");
 
+                if (RootCacheNeedsRefresh())
+                {
+                    CacheRootTransforms();
+                }
+
                 foreach (var ctrl in CrossingController.AllControllers)
                 {
                     if (ctrl != null)
@@ -99,7 +104,7 @@ namespace DV_LevelCrossings
             {
                 ReconcileCrossingsNear(playerPos);
                 _lastCheckPos = playerPos;
-            }
+            }        
 
 #if DVLC_AUTHORING
             if (Input.GetKeyDown(KeyCode.F10))
@@ -255,11 +260,15 @@ namespace DV_LevelCrossings
                     barrierData.posX,
                     barrierData.posY,
                     barrierData.posZ
-                );                                
+                );
+
+                Log($"[DEBUG] Checking barrier canonical {expectedCanonical}");
+                bool has = controller.HasBarrierWithCanonical(expectedCanonical);
+                Log($"[DEBUG] HasBarrierWithCanonical = {has}");
 
                 if (controller.HasBarrierWithCanonical(expectedCanonical))
                     continue;
-                
+
                 var barrier = FindTransformByPath(path, expectedCanonical);
                 if (barrier == null) continue;
 
@@ -348,6 +357,8 @@ namespace DV_LevelCrossings
             controller.ForceUp();
             controller.ResetRuntimeState();
 
+            
+
         }      
         private static Transform FindTransformByPath(string path, Vector3 expectedCanonical)
         {
@@ -399,7 +410,11 @@ namespace DV_LevelCrossings
             var parts = path.Split('/');
             if (parts.Length == 0) return results;
 
-            if (_rootTransforms == null || _rootTransforms.Count == 0)
+            //if (_rootTransforms == null || _rootTransforms.Count == 0)
+            //{
+            //    CacheRootTransforms();
+            //}
+            if (_rootTransforms == null)
             {
                 CacheRootTransforms();
             }
@@ -459,7 +474,16 @@ namespace DV_LevelCrossings
 
             Main.Log($"[Crossings] Cached {_rootTransforms.Count} root transforms.");
         }
-        
+
+        private static bool RootCacheNeedsRefresh()
+        {
+            foreach (var r in _rootTransforms)
+            {
+                if (r == null)
+                    return true;
+            }
+            return false;
+        }
 
         // =========================================================
         // LOGGER

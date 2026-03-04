@@ -1,5 +1,4 @@
-﻿
-using UnityEngine;
+﻿using UnityEngine;
 
 namespace DV_LevelCrossings
 {
@@ -31,13 +30,24 @@ namespace DV_LevelCrossings
             }
         }
 
+        private void OnCollisionEnter(Collision c)
+        {
+            Main.Log($"[DVLC ERROR] SOLID COLLISION on trigger {name} with {c.collider.name}. isTrigger={GetComponent<Collider>().isTrigger}");
+        }
+
         private void OnTriggerEnter(Collider other)
         {
             if (controller == null || other == null) return;
             if (!IsTrainCarCollider(other)) return;
-            Main.Log($"[Trigger ENTER] {group} by {other.name} @ {other.transform.position}");
 
-            occupantCount++;  
+            TrainCar car = other.GetComponentInParent<TrainCar>();
+
+            string carName = car != null ? car.name : "UNKNOWN_CAR";
+            string carId = car != null ? car.ID : "NO_ID";
+
+            Main.Log($"[Trigger ENTER] {group} by {carName}({carId})/{other.name} @ {other.transform.position}");
+
+            occupantCount++;
 
             controller.NotifyTrigger(group);
         }
@@ -62,23 +72,16 @@ namespace DV_LevelCrossings
         {
             if (controller != null)
                 controller.UnregisterTrigger(this);
-        }
+        }        
 
         private static bool IsTrainCarCollider(Collider other)
         {
-            Transform t = other.transform;
-            while (t != null)
-            {
-                var comps = t.GetComponents<Component>();
-                for (int i = 0; i < comps.Length; i++)
-                {
-                    var c = comps[i];
-                    if (c == null) continue;
-                    if (c.GetType().Name == "TrainCar")
-                        return true;
-                }
-                t = t.parent;
-            }
+            if (other == null) return false;
+
+            // Check directly
+            if (other.GetComponentInParent<TrainCarColliders>() != null)
+                return true;
+
             return false;
         }
     }

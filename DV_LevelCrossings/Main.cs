@@ -112,7 +112,14 @@ namespace DV_LevelCrossings
                 SaveCrossings();
                 Log("Crossings saved.");
             }
- #endif
+
+            //commented for safety, uncomment if ever need to use
+
+            //if (Input.GetKeyDown(KeyCode.F11))
+            //{
+            //    CrossingControllerAuthoringExtensions.RaiseAllTriggerHeights(-0.4f);
+            //}
+#endif
         }
 
         private static void InitializeRuntime()
@@ -238,6 +245,8 @@ namespace DV_LevelCrossings
                 }
             }
 
+            /*
+
             if (controller == null)
             {
                 Log($"[Crossings] Building runtime crossing {crossing.id}");
@@ -249,7 +258,24 @@ namespace DV_LevelCrossings
             {
                 Log($"[Crossings] Refreshing runtime crossing {crossing.id}");
             }
-            
+            */
+
+            bool newlyCreated = false;
+
+            if (controller == null)
+            {
+                Log($"[Crossings] Building runtime crossing {crossing.id}");
+                GameObject go = new GameObject("LC_Group_" + crossing.id);
+                controller = go.AddComponent<CrossingController>();
+                controller.CrossingID = crossing.id;
+
+                newlyCreated = true;
+            }
+            else
+            {
+                Log($"[Crossings] Refreshing runtime crossing {crossing.id}");
+            }
+
             controller.CleanupNullBarriers();
 
             for (int i = 0; i < crossing.barrierPaths.Count; i++)
@@ -354,11 +380,13 @@ namespace DV_LevelCrossings
 
             controller.SetAuthoringVisualsVisible(false);
 #endif
-            controller.ForceUp();
-            controller.ResetRuntimeState();
-
-            
-
+            //controller.ForceUp();
+            //controller.ResetRuntimeState();
+            if (newlyCreated)
+            {
+                controller.ForceUp();
+                controller.ResetRuntimeState();
+            }
         }      
         private static Transform FindTransformByPath(string path, Vector3 expectedCanonical)
         {
@@ -410,10 +438,6 @@ namespace DV_LevelCrossings
             var parts = path.Split('/');
             if (parts.Length == 0) return results;
 
-            //if (_rootTransforms == null || _rootTransforms.Count == 0)
-            //{
-            //    CacheRootTransforms();
-            //}
             if (_rootTransforms == null)
             {
                 CacheRootTransforms();

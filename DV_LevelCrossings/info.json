@@ -2,7 +2,7 @@
   "Id": "DV_LevelCrossings",
   "DisplayName": "DV Level Crossings",
   "Author": "GrandpaPlayingGames",
-  "Version": "1.1.0",
+  "Version": "1.1.1",
   "ManagerVersion": "0.27.0",
   "EntryMethod": "DV_LevelCrossings.Main.Load",
   "HomePage": "https://www.nexusmods.com/derailvalley/mods/1439",

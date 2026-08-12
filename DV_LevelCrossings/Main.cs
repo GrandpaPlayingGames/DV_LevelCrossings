@@ -27,7 +27,7 @@ namespace DV_LevelCrossings
         private static Vector3 _lastCheckPos;
         private static Vector3 _lastMove;
 
-        private const float MovementThreshold = 800f; // tune this
+        private const float MovementThreshold = 800f; 
         private const float CrossingAttachRadius = 1200f;
 #if DVLC_AUTHORING
         private static CrossingTriggerAuthoring _cachedAuthoring;
@@ -245,21 +245,6 @@ namespace DV_LevelCrossings
                 }
             }
 
-            /*
-
-            if (controller == null)
-            {
-                Log($"[Crossings] Building runtime crossing {crossing.id}");
-                GameObject go = new GameObject("LC_Group_" + crossing.id);
-                controller = go.AddComponent<CrossingController>();
-                controller.CrossingID = crossing.id;
-            }
-            else
-            {
-                Log($"[Crossings] Refreshing runtime crossing {crossing.id}");
-            }
-            */
-
             bool newlyCreated = false;
 
             if (controller == null)
@@ -342,7 +327,6 @@ namespace DV_LevelCrossings
                 if (exists)
                     continue;
    
-                // ---- create missing trigger ----
                 Log($"[Crossings] Creating runtime trigger {td.group} for crossing {crossing.id}");
 
                 var trigGO = GameObject.CreatePrimitive(PrimitiveType.Cube);
@@ -380,8 +364,7 @@ namespace DV_LevelCrossings
 
             controller.SetAuthoringVisualsVisible(false);
 #endif
-            //controller.ForceUp();
-            //controller.ResetRuntimeState();
+
             if (newlyCreated)
             {
                 controller.ForceUp();

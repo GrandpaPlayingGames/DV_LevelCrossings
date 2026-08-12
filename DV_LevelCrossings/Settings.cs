@@ -14,13 +14,15 @@ namespace DV_LevelCrossings
         public bool enabled = true;
 
 #if DVLC_DEBUG
-        public bool debugLogging = false;
+        public bool debugLogging = true;
 #endif
         public bool barriersAlwaysUp = false;
 
         public float normalBarrierSpeed = 45f;
         public float slowBarrierSpeed = 25f;
         public bool useSlowBarrierSpeed = false;
+
+        public float closedCabSoundDampening = 0.5f;
 
         // =========================================================
         // SAVE
@@ -83,6 +85,37 @@ namespace DV_LevelCrossings
                     new GUIStyle(GUI.skin.label) { fontStyle = FontStyle.Italic }
                 );
             }
+
+            EndGroup();
+
+            // =========================================================
+            // AUDIO
+            // =========================================================
+
+            BeginGroup("Audio", titleStyle);
+
+            GUILayout.Label(
+                $"Closed Cab Sound Dampening: " +
+                $"{closedCabSoundDampening * 100f:F0}%"
+            );
+
+            closedCabSoundDampening =
+                GUILayout.HorizontalSlider(
+                    closedCabSoundDampening,
+                    0f,
+                    1f
+                );
+
+            GUILayout.Space(4);
+
+            GUILayout.Label(
+                "Reduces crossing bell volume while inside a cab " +
+                "with all doors and windows closed.",
+                new GUIStyle(GUI.skin.label)
+                {
+                    fontStyle = FontStyle.Italic
+                }
+            );
 
             EndGroup();
         }

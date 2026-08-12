@@ -6,6 +6,7 @@ using System.Collections.Generic;
 using System.IO;
 using UnityEngine;
 using UnityEngine.Networking;
+using DV.Utils;
 
 public class CrossingController : MonoBehaviour
 {   
@@ -43,6 +44,8 @@ public class CrossingController : MonoBehaviour
     public float reverseFailSafeSeconds = 60f;
 
     // ===== AUDIO =====
+    // ===== AUDIO =====
+    private const float BaseBellVolume = 0.9f;
     private readonly List<AudioSource> bellSources = new List<AudioSource>();
     private AudioClip bellClip;
 
@@ -299,7 +302,7 @@ public class CrossingController : MonoBehaviour
 
     private void Update()
     {
-        
+        UpdateBellVolumes();
 
         // animate arms
         for (int i = 0; i < arms.Count; i++)
@@ -402,7 +405,10 @@ public class CrossingController : MonoBehaviour
         bellSource.rolloffMode = AudioRolloffMode.Linear;
         bellSource.minDistance = 10f;
         bellSource.maxDistance = 60f;
-        bellSource.volume = 0.9f;
+
+        bellSource.volume =
+            BaseBellVolume *
+            GetClosedCabVolumeMultiplier();
 
         if (!bellSources.Contains(bellSource))
             bellSources.Add(bellSource);
@@ -635,5 +641,39 @@ public class CrossingController : MonoBehaviour
     public int Debug_GetArmsCount()
     {
         return arms != null ? arms.Count : 0;
+    }
+
+    private static float GetClosedCabVolumeMultiplier()
+    {
+        AudioManager audioManager =
+            SingletonBehaviour<AudioManager>.Instance;
+
+        bool insideClosedCab =
+            audioManager != null &&
+            audioManager.Internality > 0.5f;
+
+        if (!insideClosedCab)
+            return 1f;
+
+        float dampening =
+            Mathf.Clamp01(
+                Main.Settings.closedCabSoundDampening);
+
+        return 1f - dampening;
+    }
+
+    private void UpdateBellVolumes()
+    {
+        float volume =
+            BaseBellVolume *
+            GetClosedCabVolumeMultiplier();
+
+        for (int i = 0; i < bellSources.Count; i++)
+        {
+            AudioSource source = bellSources[i];
+
+            if (source != null)
+                source.volume = volume;
+        }
     }
 }

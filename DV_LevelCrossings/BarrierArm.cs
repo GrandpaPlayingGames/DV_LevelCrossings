@@ -13,8 +13,6 @@ public class BarrierArm
 
     private const float UpAngle = 90f;
     private const float DownAngle = 0f;
-	//private const float RotateSpeedDegPerSec = 45f;
-	//private float rotateSpeedDegPerSec = 45f;
 
 	public BarrierArm(Transform rootTransform)
     {

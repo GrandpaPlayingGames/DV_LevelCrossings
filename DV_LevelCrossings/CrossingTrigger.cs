@@ -13,7 +13,6 @@ namespace DV_LevelCrossings
         public CrossingController controller;
         public TriggerGroup group;
 
-        // ===== NEW: occupancy tracking =====
         private int occupantCount = 0;
         public bool IsOccupied => occupantCount > 0;
 
